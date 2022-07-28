@@ -5,16 +5,16 @@
 *
 */
 // server local
-/*$host='localhost';
+$host='localhost';
 $user = 'root';
 $password = 'ois'; //To be completed if you have set a password to root
 $database = 'laundry'; //To be completed to connect to a database. The database must exist.
-*/
+
 // server hosting
-$host='db4free.net';
+/*$host='db4free.net';
 $user = 'laundry_1';
 $password = 'laundry123'; //To be completed if you have set a password to root
-$database = 'laundry_1'; 
+$database = 'laundry_1'; */
 $mysqli = new mysqli($host, $user, $password, $database);
 
 if ($mysqli->connect_error) {
